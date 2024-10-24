@@ -1,5 +1,447 @@
 [
 {
+
+"Question": "What is data abstraction in Java?",  
+"Options": [  
+  "A) Hiding the implementation details and showing only functionality",  
+  "B) Encapsulating data and methods in a single class",  
+  "C) Restricting access to data members using access modifiers",  
+  "D) Preventing inheritance by making a class final"  
+],  
+"Correct Option": "A"  
+
+"Question": "Which keyword is used to declare an abstract class in Java?",  
+"Options": [  
+  "A) abstract",  
+  "B) virtual",  
+  "C) interface",  
+  "D) final"  
+],  
+"Correct Option": "A"  
+
+"Question": "Can an abstract class implement an interface?",  
+"Options": [  
+  "A) No, abstract classes cannot implement interfaces",  
+  "B) Yes, but it must implement all interface methods",  
+  "C) Yes, it can implement some or all interface methods",  
+  "D) Only if the interface contains abstract methods"  
+],  
+"Correct Option": "C"  
+
+"Question": "Which of the following is a feature of abstract classes?",  
+"Options": [  
+  "A) They cannot have non-static fields",  
+  "B) They can contain constructors",  
+  "C) They do not support inheritance",  
+  "D) They cannot have final methods"  
+],  
+"Correct Option": "B"  
+
+"Question": "Why can't we instantiate abstract classes?",  
+"Options": [  
+  "A) They do not have constructors",  
+  "B) They are incomplete and need subclass implementation",  
+  "C) They only contain static methods",  
+  "D) They are used to declare constants"  
+],  
+"Correct Option": "B"  
+
+"Question": "What must be true for a method to be declared abstract?",  
+"Options": [  
+  "A) It must be public",  
+  "B) It must have no body",  
+  "C) It must be synchronized",  
+  "D) It must be static"  
+],  
+"Correct Option": "B"  
+
+"Question": "Can abstract classes have final methods?",  
+"Options": [  
+  "A) No, all methods must be non-final",  
+  "B) Yes, final methods cannot be overridden",  
+  "C) Only if the method is abstract",  
+  "D) Only if the class is not extended"  
+],  
+"Correct Option": "B"  
+
+"Question": "What is the purpose of the abstract keyword?",  
+"Options": [  
+  "A) To indicate a method has no parameters",  
+  "B) To define constants",  
+  "C) To indicate incomplete classes or methods",  
+  "D) To allow multiple inheritance"  
+],  
+"Correct Option": "C"  
+
+"Question": "Which of the following statements about abstract classes is true?",  
+"Options": [  
+  "A) They must contain only abstract methods",  
+  "B) They cannot have non-static methods",  
+  "C) They can contain both abstract and non-abstract methods",  
+  "D) They do not allow method overloading"  
+],  
+"Correct Option": "C"  
+
+"Question": "What is the difference between an interface and an abstract class?",  
+"Options": [  
+  "A) Interfaces allow constructors, abstract classes do not",  
+  "B) Abstract classes allow constructors, interfaces do not",  
+  "C) Interfaces can have private methods, abstract classes cannot",  
+  "D) Abstract classes cannot contain abstract methods"  
+],  
+"Correct Option": "B"  
+
+"Question": "Can an abstract class be extended by another abstract class?",  
+"Options": [  
+  "A) No, only concrete classes can extend abstract classes",  
+  "B) Yes, an abstract class can extend another abstract class",  
+  "C) Only if both classes have constructors",  
+  "D) No, abstract classes cannot be extended"  
+],  
+"Correct Option": "B"  
+
+"Question": "Which of the following statements about abstract methods is true?",  
+"Options": [  
+  "A) They must be static",  
+  "B) They cannot have a return type",  
+  "C) They must be implemented by subclasses",  
+  "D) They can have private access modifiers"  
+],  
+"Correct Option": "C"  
+
+"Question": "Can a non-abstract class have abstract methods?",  
+"Options": [  
+  "A) No, only abstract classes can contain abstract methods",  
+  "B) Yes, but only if the class is final",  
+  "C) Yes, but it must also implement all other abstract methods",  
+  "D) No, but it can have private methods"  
+],  
+"Correct Option": "A"  
+
+"Question": "What happens if you declare a class as abstract but do not include any abstract methods?",  
+"Options": [  
+  "A) It results in a compile-time error",  
+  "B) It is allowed, but the class cannot be instantiated",  
+  "C) The class will behave as an interface",  
+  "D) It must extend another abstract class"  
+],  
+"Correct Option": "B"  
+
+"Question": "Which type of abstraction is achieved through abstract classes?",  
+"Options": [  
+  "A) 50%",  
+  "B) 100%",  
+  "C) 75%",  
+  "D) 0%"  
+],  
+"Correct Option": "A"  
+
+"Question": "Why is abstraction important in OOP?",  
+"Options": [  
+  "A) It ensures all code is public",  
+  "B) It helps hide implementation details",  
+  "C) It allows for multiple inheritance",  
+  "D) It forces every class to be final"  
+],  
+"Correct Option": "B"  
+
+"Question": "Can an interface contain abstract methods?",  
+"Options": [  
+  "A) No, interfaces only contain static methods",  
+  "B) Yes, interfaces contain only abstract methods by default",  
+  "C) Yes, but only if declared with the 'abstract' keyword",  
+  "D) No, they must be marked as private"  
+],  
+"Correct Option": "B"  
+
+"Question": "How does abstraction help with code maintenance?",  
+"Options": [  
+  "A) It increases redundancy",  
+  "B) It reduces dependencies by exposing only relevant methods",  
+  "C) It forces developers to use only private variables",  
+  "D) It prevents code reuse"  
+],  
+"Correct Option": "B"  
+
+"Question": "Which of the following statements about data abstraction is false?",  
+"Options": [  
+  "A) It hides the internal implementation details",  
+  "B) It shows only essential features",  
+  "C) It makes the code harder to understand",  
+  "D) It simplifies code readability"  
+],  
+"Correct Option": "C"  
+
+"Question": "Can a class be both abstract and final in Java?",  
+"Options": [  
+  "A) Yes, it is allowed",  
+  "B) No, because abstract classes must be extendable",  
+  "C) Yes, but only with static methods",  
+  "D) No, because abstract classes cannot have constructors"  
+],  
+"Correct Option": "B"  
+
+"Question": "Which method must be implemented when extending an abstract class?",  
+"Options": [  
+  "A) All static methods",  
+  "B) All public methods",  
+  "C) All abstract methods",  
+  "D) Only private methods"  
+],  
+"Correct Option": "C"  
+
+"Question": "What will happen if an abstract method is not implemented by the subclass?",  
+"Options": [  
+  "A) It will compile successfully",  
+  "B) It must also be declared abstract",  
+  "C) It will cause a runtime error",  
+  "D) It will result in a compile-time error"  
+],  
+"Correct Option": "D"  
+
+"Question": "Which of the following is a key benefit of abstraction?",  
+"Options": [  
+  "A) Reduces code length",  
+  "B) Increases security by hiding data",  
+  "C) Makes the program logic complex",  
+  "D) Allows focus on essential functionality without worrying about the details"  
+],  
+"Correct Option": "D"  
+
+"Question": "What is the default access modifier for members of an abstract class?",  
+"Options": [  
+  "A) public",  
+  "B) protected",  
+  "C) private",  
+  "D) package-private"  
+],  
+"Correct Option": "D"  
+
+"Question": "Can abstract classes have constructors?",  
+"Options": [  
+  "A) Yes, to initialize fields common to all subclasses",  
+  "B) No, because abstract classes cannot be instantiated",  
+  "C) Only if declared as static",  
+  "D) Only if they do not have parameters"  
+],  
+"Correct Option": "A"  
+
+"Question": "How many abstract methods can an abstract class contain?",  
+"Options": [  
+  "A) Only one",  
+  "B) Exactly two",  
+  "C) Any number",  
+  "D) None, abstract classes cannot have abstract methods"  
+],  
+"Correct Option": "C"  
+
+"Question": "Which type of method can be defined in an abstract class?",  
+"Options": [  
+  "A) Only abstract methods",  
+  "B) Only static methods",  
+  "C) Both abstract and non-abstract methods",  
+  "D) Only synchronized methods"  
+],  
+"Correct Option": "C"  
+
+"Question": "Is it mandatory to declare an abstract class if it contains at least one abstract method?",  
+"Options": [  
+  "A) Yes",  
+  "B) No",  
+  "C) Only if the class is public",  
+  "D) Only if it is extended by another class"  
+],  
+"Correct Option": "A"  
+
+"Question": "Can an abstract class implement an interface?",  
+"Options": [  
+  "A) No, abstract classes cannot implement interfaces",  
+  "B) Yes, but it must implement all interface methods",  
+  "C) Yes, it can implement some or all interface methods",  
+  "D) Only if the interface contains abstract methods"  
+],  
+"Correct Option": "C"  
+
+"Question": "Which of the following is a feature of abstract classes?",  
+"Options": [  
+  "A) They cannot have non-static fields",  
+  "B) They can contain constructors",  
+  "C) They do not support inheritance",  
+  "D) They cannot have final methods"  
+],  
+"Correct Option": "B"  
+
+"Question": "Why can't we instantiate abstract classes?",  
+"Options": [  
+  "A) They do not have constructors",  
+  "B) They are incomplete and need subclass implementation",  
+  "C) They only contain static methods",  
+  "D) They are used to declare constants"  
+],  
+"Correct Option": "B"  
+
+"Question": "What must be true for a method to be declared abstract?",  
+"Options": [  
+  "A) It must be public",  
+  "B) It must have no body",  
+  "C) It must be synchronized",  
+  "D) It must be static"  
+],  
+"Correct Option": "B"  
+
+"Question": "Can abstract classes have final methods?",  
+"Options": [  
+  "A) No, all methods must be non-final",  
+  "B) Yes, final methods cannot be overridden",  
+  "C) Only if the method is abstract",  
+  "D) Only if the class is not extended"  
+],  
+"Correct Option": "B"  
+
+"Question": "What is the purpose of the abstract keyword?",  
+"Options": [  
+  "A) To indicate a method has no parameters",  
+  "B) To define constants",  
+  "C) To indicate incomplete classes or methods",  
+  "D) To allow multiple inheritance"  
+],  
+"Correct Option": "C"  
+
+"Question": "Which of the following statements about abstract classes is true?",  
+"Options": [  
+  "A) They must contain only abstract methods",  
+  "B) They cannot have non-static methods",  
+  "C) They can contain both abstract and non-abstract methods",  
+  "D) They do not allow method overloading"  
+],  
+"Correct Option": "C"  
+
+"Question": "What is the difference between an interface and an abstract class?",  
+"Options": [  
+  "A) Interfaces allow constructors, abstract classes do not",  
+  "B) Abstract classes allow constructors, interfaces do not",  
+  "C) Interfaces can have private methods, abstract classes cannot",  
+  "D) Abstract classes cannot contain abstract methods"  
+],  
+"Correct Option": "B"  
+
+"Question": "Can an abstract class be extended by another abstract class?",  
+"Options": [  
+  "A) No, only concrete classes can extend abstract classes",  
+  "B) Yes, an abstract class can extend another abstract class",  
+  "C) Only if both classes have constructors",  
+  "D) No, abstract classes cannot be extended"  
+],  
+"Correct Option": "B"  
+
+"Question": "Which of the following statements about abstract methods is true?",  
+"Options": [  
+  "A) They must be static",  
+  "B) They cannot have a return type",  
+  "C) They must be implemented by subclasses",  
+  "D) They can have private access modifiers"  
+],  
+"Correct Option": "C"  
+
+"Question": "Can a non-abstract class have abstract methods?",  
+"Options": [  
+  "A) No, only abstract classes can contain abstract methods",  
+  "B) Yes, but only if the class is final",  
+  "C) Yes, but it must also implement all other abstract methods",  
+  "D) No, but it can have private methods"  
+],  
+"Correct Option": "A"  
+
+"Question": "What happens if you declare a class as abstract but do not include any abstract methods?",  
+"Options": [  
+  "A) It results in a compile-time error",  
+  "B) It is allowed, but the class cannot be instantiated",  
+  "C) The class will behave as an interface",  
+  "D) It must extend another abstract class"  
+],  
+"Correct Option": "B"  
+
+"Question": "Which type of abstraction is achieved through abstract classes?",  
+"Options": [  
+  "A) 50%",  
+  "B) 100%",  
+  "C) 75%",  
+  "D) 0%"  
+],  
+"Correct Option": "A"  
+
+"Question": "Why is abstraction important in OOP?",  
+"Options": [  
+  "A) It ensures all code is public",  
+  "B) It helps hide implementation details",  
+  "C) It allows for multiple inheritance",  
+  "D) It forces every class to be final"  
+],  
+"Correct Option": "B"  
+
+"Question": "Can an interface contain abstract methods?",  
+"Options": [  
+  "A) No, interfaces only contain static methods",  
+  "B) Yes, interfaces contain only abstract methods by default",  
+  "C) Yes, but only if declared with the 'abstract' keyword",  
+  "D) No, they must be marked as private"  
+],  
+"Correct Option": "B"  
+
+"Question": "How does abstraction help with code maintenance?",  
+"Options": [  
+  "A) It increases redundancy",  
+  "B) It reduces dependencies by exposing only relevant methods",  
+  "C) It forces developers to use only private variables",  
+  "D) It prevents code reuse"  
+],  
+"Correct Option": "B"  
+
+"Question": "Which of the following statements about data abstraction is false?",  
+"Options": [  
+  "A) It hides the internal implementation details",  
+  "B) It shows only essential features",  
+  "C) It makes the code harder to understand",  
+  "D) It simplifies code readability"  
+],  
+"Correct Option": "C"  
+
+"Question": "Can interfaces in Java achieve abstraction?",  
+"Options": [  
+  "A) No, only abstract classes achieve abstraction",  
+  "B) Yes, interfaces achieve 100% abstraction",  
+  "C) Yes, but only partially",  
+  "D) No, they are used for encapsulation"  
+],  
+"Correct Option": "B"  
+
+"Question": "What access modifier is allowed for abstract methods?",  
+"Options": [  
+  "A) public",  
+  "B) protected",  
+  "C) private",  
+  "D) All of the above except private"  
+],  
+"Correct Option": "D"  
+
+"Question": "Which of the following must be true for a class to be abstract?",  
+"Options": [  
+  "A) It must extend another abstract class",  
+  "B) It must implement at least one interface",  
+  "C) It must have at least one abstract method",  
+  "D) It must be declared with the 'abstract' keyword"  
+],  
+"Correct Option": "D"  
+
+"Question": "Which of these is a valid abstract method signature?",  
+"Options": [  
+  "A) public abstract void display();",  
+  "B) private abstract void show();",  
+  "C) abstract void run(int a) {}",  
+  "D) static abstract void execute();"  
+],  
+"Correct Option": "A"  
+
 “Question”: "What is data abstraction?",
 "Options": [
     "A) Hiding the implementation details",
@@ -161,5 +603,635 @@
     "D) A type of software application"
 ],
 "Correct Option": “B"
+
+"Question": "What is the primary benefit of polymorphism in Object-Oriented Programming?",
+"Options": [
+    "A) Code duplication",
+    "B) Enhanced code readability and reusability",
+    "C) Faster compilation",
+    "D) Use of only one type of data structure"
+],
+"Correct Option": "B"
+
+"Question": "How is method overloading related to polymorphism?",
+"Options": [
+    "A) It restricts multiple method definitions.",
+    "B) It allows multiple methods with the same name but different parameters.",
+    "C) It eliminates the need for inheritance.",
+    "D) It prohibits function overloading."
+],
+"Correct Option": "B"
+
+"Question": "What is runtime polymorphism in Java?",
+"Options": [
+    "A) When a function is called at compile-time.",
+    "B) When the binding of the function to the object is determined during runtime.",
+    "C) When variables are allocated during compile-time.",
+    "D) When inheritance is avoided in coding."
+],
+"Correct Option": "B"
+
+"Question": "Which of the following demonstrates polymorphism?",
+"Options": [
+    "A) Creating instances using different constructors",
+    "B) Calling overridden methods in subclass objects using a parent class reference",
+    "C) Using only static variables across classes",
+    "D) Declaring functions inside a loop"
+],
+"Correct Option": "B"
+
+"Question": "What is the difference between method overloading and method overriding?",
+"Options": [
+    "A) Method overloading happens during runtime, and method overriding occurs during compile-time.",
+    "B) Method overloading allows multiple return types, but overriding does not.",
+    "C) Overloading defines multiple methods in the same class, while overriding defines a method in a subclass that is also present in the parent class.",
+    "D) Overloading only applies to static methods."
+],
+"Correct Option": "C"
+
+"Question": "Which type of polymorphism does Java support?",
+"Options": [
+    "A) Compile-time and Runtime polymorphism",
+    "B) Static polymorphism only",
+    "C) Dynamic polymorphism only",
+    "D) None of the above"
+],
+"Correct Option": "A"
+
+"Question": "What is method overriding in Java?",
+"Options": [
+    "A) Redefining a static method in the same class",
+    "B) Modifying a private method in the parent class",
+    "C) Defining a method in a subclass that has the same signature as a method in the parent class",
+    "D) Overloading a constructor"
+],
+"Correct Option": "C"
+
+"Question": "Which keyword is used to call a parent class method in case of overriding?",
+"Options": [
+    "A) this",
+    "B) parent",
+    "C) super",
+    "D) base"
+],
+"Correct Option": "C"
+
+"Question": "What happens if you try to override a static method in Java?",
+"Options": [
+    "A) It results in a runtime error",
+    "B) It results in a compile-time error",
+    "C) It creates method hiding, not overriding",
+    "D) It changes the method's signature"
+],
+"Correct Option": "C"
+
+"Question": "Why is runtime polymorphism also known as dynamic method dispatch?",
+"Options": [
+    "A) Methods are selected at compile time",
+    "B) Methods are invoked based on the type of reference",
+    "C) Methods are invoked based on the actual object type at runtime",
+    "D) Methods are always static"
+],
+"Correct Option": "C"
+
+"Question": "Can a constructor be overridden in Java?",
+"Options": [
+    "A) Yes, it behaves like a normal method",
+    "B) No, constructors cannot be inherited or overridden",
+    "C) Only if declared as 'final'",
+    "D) Only for static constructors"
+],
+"Correct Option": "B"
+
+"Question": "What is the purpose of polymorphism?",
+"Options": [
+    "A) To enhance encapsulation",
+    "B) To reduce runtime errors",
+    "C) To allow one interface to be used for different data types or classes",
+    "D) To ensure only one instance of an object"
+],
+"Correct Option": "C"
+
+"Question": "What is polymorphism in Object-Oriented Programming?",
+"Options": [
+    "A) The ability to process objects differently based on their class",
+    "B) A technique to restrict access to methods",
+    "C) A design pattern for structuring code",
+    "D) A method for duplicating code"
+],
+"Correct Option": "A"
+
+"Question": "Which of the following demonstrates method overloading?",
+"Options": [
+    "A) Two methods with the same name but different parameter lists",
+    "B) A subclass implementing methods from an interface",
+    "C) Overriding a method in a subclass",
+    "D) Declaring methods as final"
+],
+"Correct Option": "A"
+
+"Question": "What is method overriding?",
+"Options": [
+    "A) Defining a new method with the same name and parameters in a subclass",
+    "B) A way to create multiple constructors",
+    "C) A mechanism for handling exceptions",
+    "D) A static method declaration"
+],
+"Correct Option": "A"
+
+"Question": "Which type of polymorphism is achieved through method overriding?",
+"Options": [
+    "A) Compile-time polymorphism",
+    "B) Runtime polymorphism",
+    "C) Static polymorphism",
+    "D) Functional polymorphism"
+],
+"Correct Option": "B"
+
+"Question": "What is the output when an overridden method is called using a parent class reference pointing to a child object?",
+"Options": [
+    "A) The method in the parent class is executed",
+    "B) A compile-time error occurs",
+    "C) The method in the child class is executed",
+    "D) None of the above"
+],
+"Correct Option": "C"
+
+"Question": "What happens if a subclass defines a static method with the same signature as a static method in the parent class?",
+"Options": [
+    "A) The subclass method overrides the parent method",
+    "B) The subclass method hides the parent method",
+    "C) It causes a runtime error",
+    "D) It causes a compile-time error"
+],
+"Correct Option": "B"
+
+"Question": "How does Java achieve polymorphism?",
+"Options": [
+    "A) Through inheritance and interfaces",
+    "B) Through final methods",
+    "C) Through static imports",
+    "D) Through abstract classes only"
+],
+"Correct Option": "A"
+
+"Question": "Which keyword is used to refer to the current object in Java?",
+"Options": [
+    "A) this",
+    "B) super",
+    "C) parent",
+    "D) base"
+],
+"Correct Option": "A"
+
+"Question": "Can you override a private method in Java?",
+"Options": [
+    "A) Yes, it behaves like normal methods",
+    "B) No, private methods cannot be overridden",
+    "C) Only in inner classes",
+    "D) Only if the method is static"
+],
+"Correct Option": "B"
+
+"Question": "What is meant by dynamic binding?",
+"Options": [
+    "A) Binding happens during compile-time",
+    "B) Binding happens during runtime based on the object type",
+    "C) Binding of static variables",
+    "D) None of the above"
+],
+"Correct Option": "B"
+
+"Question": "Which method is called when a class inherits from two interfaces with the same method signature?",
+"Options": [
+    "A) The method from the first interface",
+    "B) The method from the second interface",
+    "C) The method must be explicitly overridden in the class",
+    "D) None of the above"
+],
+"Correct Option": "C"
+
+"Question": "What is covariance in method overriding?",
+"Options": [
+    "A) The return type can change to a subtype in the subclass",
+    "B) The parameter type can change to a subtype",
+    "C) Only static methods support covariance",
+    "D) None of the above"
+],
+"Correct Option": "A"
+
+"Question": "Which of the following is true about polymorphism?",
+"Options": [
+    "A) Polymorphism allows code to be more tightly coupled",
+    "B) Polymorphism enables the same function to behave differently in different contexts",
+    "C) Polymorphism restricts inheritance",
+    "D) Polymorphism disables method overriding"
+],
+"Correct Option": "B"
+
+"Question": "What is an abstract class?",
+"Options": [
+    "A) A class with all static methods",
+    "B) A class that cannot be instantiated and may contain abstract methods",
+    "C) A class that only contains constructors",
+    "D) A class with no methods"
+],
+"Correct Option": "B"
+
+"Question": "Why can’t constructors be overridden?",
+"Options": [
+    "A) They have a different name than the class",
+    "B) They are static by nature",
+    "C) They are not inherited",
+    "D) They are always public"
+],
+"Correct Option": "C"
+
+"Question": "What is the benefit of polymorphism when using collections?",
+"Options": [
+    "A) Collections do not support polymorphism",
+    "B) It allows different object types to be stored and manipulated in the same collection",
+    "C) It makes collections faster",
+    "D) It restricts collections to store only one type of object"
+],
+"Correct Option": "B"
+
+"Question": "Which interface in Java is the root of the collection hierarchy?",
+"Options": [
+    "A) Collection",
+    "B) List",
+    "C) Set",
+    "D) Iterable"
+],
+"Correct Option": "A"
+
+"Question": "What is the difference between polymorphism and abstraction?",
+"Options": [
+    "A) Abstraction hides implementation details, while polymorphism allows for multiple forms",
+    "B) Both are the same concept",
+    "C) Polymorphism hides data, abstraction reveals implementation",
+    "D) Abstraction applies only to inheritance"
+],
+"Correct Option": "A"
+
+"Question": "What type of polymorphism is used with interfaces?",
+"Options": [
+    "A) Compile-time",
+    "B) Runtime",
+    "C) Both compile-time and runtime",
+    "D) Neither"
+],
+"Correct Option": "B"
+
+"Question": "Which operator is typically associated with runtime polymorphism?",
+"Options": [
+    "A) +",
+    "B) new",
+    "C) instanceof",
+    "D) super"
+],
+"Correct Option": "C"
+
+"Question": "What is the main difference between static and dynamic polymorphism?",
+"Options": [
+    "A) Static polymorphism is resolved at runtime, and dynamic at compile-time",
+    "B) Static polymorphism is resolved at compile-time, and dynamic at runtime",
+    "C) Both are resolved during runtime",
+    "D) Both are resolved during compile-time"
+],
+"Correct Option": "B"
+
+"Question": "Which concept allows a subclass to provide a specific implementation of a method already defined in its superclass?",
+"Options": [
+    "A) Abstraction",
+    "B) Encapsulation",
+    "C) Method Overriding",
+    "D) Method Overloading"
+],
+"Correct Option": "C"
+
+"Question": "What does the term ‘early binding’ refer to?",
+"Options": [
+    "A) Binding done during program execution",
+    "B) Binding done during compile-time",
+    "C) Binding based on inheritance",
+    "D) None of the above"
+],
+"Correct Option": "B"
+
+"Question": "Why is Java’s method overriding an example of runtime polymorphism?",
+"Options": [
+    "A) Because the method call is resolved during runtime",
+    "B) Because Java uses pointers",
+    "C) Because inheritance is not involved",
+    "D) Because it happens during compile-time"
+],
+"Correct Option": "A"
+
+"Question": "How can polymorphism be achieved without using inheritance?",
+"Options": [
+    "A) By using only static methods",
+    "B) Through interfaces",
+    "C) Using abstract classes",
+    "D) It is not possible"
+],
+"Correct Option": "B"
+
+"Question": "Which of the following is an example of compile-time polymorphism?",
+"Options": [
+    "A) Method Overriding",
+    "B) Method Overloading",
+    "C) Abstract class usage",
+    "D) Dynamic method dispatch"
+],
+"Correct Option": "B"
+
+"Question": "What happens when you cast a subclass object to a superclass reference?",
+"Options": [
+    "A) A compile-time error occurs",
+    "B) A runtime error occurs",
+    "C) The subclass object is treated as an instance of the superclass",
+    "D) The subclass object loses its data"
+],
+"Correct Option": "C"
+
+"Question": "Which keyword in Java prevents method overriding?",
+"Options": [
+    "A) abstract",
+    "B) static",
+    "C) final",
+    "D) this"
+],
+"Correct Option": "C"
+
+"Question": "Can polymorphism be achieved through inheritance alone?",
+"Options": [
+    "A) Yes, always",
+    "B) No, interfaces are mandatory",
+    "C) No, abstract classes are mandatory",
+    "D) Yes, but interfaces enhance it"
+],
+"Correct Option": "D"
+
+"Question": "What is function overriding also known as?",
+"Options": [
+    "A) Dynamic binding",
+    "B) Static binding",
+    "C) Early binding",
+    "D) Type casting"
+],
+"Correct Option": "A"
+
+"Question": "What is the result if a subclass does not override a method in the superclass?",
+"Options": [
+    "A) A runtime error occurs",
+    "B) The superclass method is inherited and used",
+    "C) The compiler ignores the method",
+    "D) The subclass cannot be compiled"
+],
+"Correct Option": "B"
+
+"Question": "Which of the following is a real-world example of polymorphism?",
+"Options": [
+    "A) A person being a teacher and a student",
+    "B) Using only one type of vehicle for travel",
+    "C) A program with only static methods",
+    "D) Having a function with no arguments"
+],
+"Correct Option": "A"
+
+"Question": "What is the return type of a method that overrides a method in the superclass?",
+"Options": [
+    "A) It must be exactly the same",
+    "B) It can be a subclass of the original return type",
+    "C) It can be any return type",
+    "D) It can only be void"
+],
+"Correct Option": "B"
+
+"Question": "Why is polymorphism useful in software design?",
+"Options": [
+    "A) It complicates the code",
+    "B) It makes the code more modular and reusable",
+    "C) It eliminates the need for inheritance",
+    "D) It allows functions to have the same name"
+],
+"Correct Option": "B"
+
+"Question": "What happens if you try to override a final method in Java?",
+"Options": [
+    "A) It causes a compile-time error",
+    "B) It results in a runtime exception",
+    "C) It works like normal method overriding",
+    "D) It hides the superclass method"
+],
+"Correct Option": "A"
+
+"Question": "Which mechanism allows a child class to define a specific behavior while still sharing the interface of the parent class?",
+"Options": [
+    "A) Inheritance",
+    "B) Polymorphism",
+    "C) Abstraction",
+    "D) Encapsulation"
+],
+"Correct Option": "B"
+
+"Question": "What is method hiding?",
+"Options": [
+    "A) Overriding a final method",
+    "B) Defining a static method with the same signature in a subclass",
+    "C) Declaring private methods",
+    "D) Changing method visibility in a subclass"
+],
+"Correct Option": "B"
+
+"Question": "Which feature of polymorphism allows treating derived class objects as their base class objects?",
+"Options": [
+    "A) Inheritance",
+    "B) Method Overriding",
+    "C) Encapsulation",
+    "D) Upcasting"
+],
+"Correct Option": "D"
+"Question": "What is a binary tree?",
+"Options": [
+    "A) A tree with no children",
+    "B) A tree where each node has at most two children",
+    "C) A tree where each node has two parents",
+    "D) A tree with multiple roots"
+],
+"Correct Option": "B"
+
+"Question": "What is the height of a binary tree?",
+"Options": [
+    "A) The number of nodes in the tree",
+    "B) The number of levels in the tree",
+    "C) The length of the longest path from the root to a leaf node",
+    "D) The sum of all node values"
+],
+"Correct Option": "C"
+
+"Question": "What is a balanced binary tree?",
+"Options": [
+    "A) A binary tree with equal number of left and right children",
+    "B) A binary tree where the left subtree has more nodes than the right",
+    "C) A binary tree where the difference in height between left and right subtrees is at most 1",
+    "D) A tree with all levels completely filled"
+],
+"Correct Option": "C"
+
+"Question": "What is an AVL tree?",
+"Options": [
+    "A) A binary tree with only left children",
+    "B) A self-balancing binary search tree",
+    "C) A binary tree with at most three children per node",
+    "D) A tree with cyclic edges"
+],
+"Correct Option": "B"
+
+"Question": "Which property does an AVL tree maintain?",
+"Options": [
+    "A) Every level is fully populated",
+    "B) Each node has exactly two children",
+    "C) The heights of the left and right subtrees differ by at most one",
+    "D) The height of the left subtree is always greater"
+],
+"Correct Option": "C"
+
+"Question": "What operation causes rebalancing in an AVL tree?",
+"Options": [
+    "A) Insertion only",
+    "B) Deletion only",
+    "C) Insertion and deletion",
+    "D) Searching"
+],
+"Correct Option": "C"
+
+"Question": "What is a B-tree?",
+"Options": [
+    "A) A binary tree with at most two children per node",
+    "B) A balanced tree where nodes can have multiple children",
+    "C) A binary tree with a fixed height",
+    "D) A tree used for string matching"
+],
+"Correct Option": "B"
+
+"Question": "What is the advantage of B-trees over binary trees?",
+"Options": [
+    "A) Faster sorting",
+    "B) Reduced disk I/O operations",
+    "C) Better support for recursion",
+    "D) Greater memory consumption"
+],
+"Correct Option": "B"
+
+"Question": "What is the minimum number of children a non-root node in a B-tree of order m can have?",
+"Options": [
+    "A) m",
+    "B) m/2",
+    "C) m-1",
+    "D) m+1"
+],
+"Correct Option": "B"
+
+"Question": "Which traversal method visits the root node first, then left and right subtrees?",
+"Options": [
+    "A) In-order",
+    "B) Pre-order",
+    "C) Post-order",
+    "D) Level-order"
+],
+"Correct Option": "B"
+
+"Question": "What is a graph in computer science?",
+"Options": [
+    "A) A linear structure of nodes",
+    "B) A non-linear data structure consisting of nodes and edges",
+    "C) A tree with multiple roots",
+    "D) A list of sorted elements"
+],
+"Correct Option": "B"
+
+"Question": "What are the two main types of graphs?",
+"Options": [
+    "A) Directed and Undirected graphs",
+    "B) Linear and Non-linear graphs",
+    "C) Complete and Incomplete graphs",
+    "D) Cyclic and Acyclic graphs"
+],
+"Correct Option": "A"
+
+"Question": "What is a weighted graph?",
+"Options": [
+    "A) A graph with multiple edges between nodes",
+    "B) A graph where each edge has a weight associated with it",
+    "C) A graph where each node has a priority value",
+    "D) A graph without cycles"
+],
+"Correct Option": "B"
+
+"Question": "What is a spanning tree of a graph?",
+"Options": [
+    "A) A subgraph that connects all vertices with the minimum possible edges",
+    "B) A graph with all vertices connected by multiple edges",
+    "C) A graph with no vertices",
+    "D) A subgraph with cycles"
+],
+"Correct Option": "A"
+
+"Question": "What is the time complexity of Breadth-First Search (BFS)?",
+"Options": [
+    "A) O(1)",
+    "B) O(V + E)",
+    "C) O(V^2)",
+    "D) O(log V)"
+],
+"Correct Option": "B"
+
+"Question": "Which traversal method explores as far as possible along one branch before backtracking?",
+"Options": [
+    "A) Depth-First Search (DFS)",
+    "B) Breadth-First Search (BFS)",
+    "C) Level-order traversal",
+    "D) Pre-order traversal"
+],
+"Correct Option": "A"
+
+"Question": "What is the difference between a tree and a graph?",
+"Options": [
+    "A) Trees are always weighted, graphs are not",
+    "B) Trees have a hierarchical structure, graphs do not",
+    "C) Trees allow cycles, graphs do not",
+    "D) Graphs have only one root, trees do not"
+],
+"Correct Option": "B"
+
+"Question": "Which algorithm finds the shortest path from a source node to all other nodes?",
+"Options": [
+    "A) Prim's Algorithm",
+    "B) Dijkstra's Algorithm",
+    "C) Kruskal's Algorithm",
+    "D) DFS"
+],
+"Correct Option": "B"
+
+"Question": "What is a cycle in a graph?",
+"Options": [
+    "A) A path that visits the same vertex more than once",
+    "B) A graph with disconnected nodes",
+    "C) A linear sequence of edges",
+    "D) A graph with only one edge"
+],
+"Correct Option": "A"
+
+"Question": "What type of graph traversal is typically used for finding the shortest path?",
+"Options": [
+    "A) Depth-First Search (DFS)",
+    "B) Breadth-First Search (BFS)",
+    "C) Pre-order traversal",
+    "D) Post-order traversal"
+],
+"Correct Option": "B"
+
 }
 ]
