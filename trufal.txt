@@ -1,83 +1,343 @@
 [
-{
-"Question": "What is data abstraction?",
-"Answer": "Data abstraction separates a data type’s implementation from its interface.",
-"True/False": "True"
+    {
+        "Question": "What is a stack?",
+        "Answer": "A stack is a data structure that follows the LIFO principle.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Explain inheritance in OOP.",
+        "Answer": "Inheritance allows a class to inherit properties and methods from another class.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a queue?",
+        "Answer": "A queue is a data structure that follows the FIFO principle.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Define multithreading.",
+        "Answer": "Multithreading allows multiple threads to run simultaneously in a single program.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Explain a hash table.",
+        "Answer": "A hash table uses a key-value pair mechanism for data storage.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a binary tree?",
+        "Answer": "A binary tree is a tree structure where each node has at most two children.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is encapsulation?",
+        "Answer": "Encapsulation bundles data and methods together to restrict access.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a primary key in a database?",
+        "Answer": "A primary key uniquely identifies each record in a database table.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Explain overloading in OOP.",
+        "Answer": "Overloading allows a class to define multiple methods with the same name but different parameters.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a compiler?",
+        "Answer": "A compiler translates machine code into high-level programming language.",
+        "True/False": "False"
+    },
+    {
+        "Question": "Define recursion.",
+        "Answer": "Recursion occurs when a function calls itself.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a graph?",
+        "Answer": "A graph is a data structure made of nodes and edges.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Explain Big-O notation.",
+        "Answer": "Big-O notation measures the time complexity of an algorithm.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a linked list?",
+        "Answer": "A linked list is a linear data structure where each node points to the next node.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is an operating system?",
+        "Answer": "An operating system directly executes application code without any user interface.",
+        "True/False": "False"
+    },
+    {
+        "Question": "Explain modular programming.",
+        "Answer": "Modular programming divides a program into separate, independent modules.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is overfitting in machine learning?",
+        "Answer": "Overfitting occurs when a model performs poorly on training data but well on unseen data.",
+        "True/False": "False"
+    },
+    {
+        "Question": "What is a neural network?",
+        "Answer": "A neural network is a machine learning model inspired by the human brain's structure.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Define a stack overflow error.",
+        "Answer": "A stack overflow error occurs when a program uses more stack memory than allocated.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is dynamic programming?",
+        "Answer": "Dynamic programming breaks problems into smaller overlapping subproblems.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Explain relational databases.",
+        "Answer": "Relational databases store data in key-value pairs.",
+        "True/False": "False"
+    },
+    {
+        "Question": "What is deadlock in OS?",
+        "Answer": "Deadlock occurs when multiple processes are stuck waiting for resources held by each other.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is an IP address?",
+        "Answer": "An IP address uniquely identifies devices on a network.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a binary search?",
+        "Answer": "Binary search works on unsorted datasets.",
+        "True/False": "False"
+    },
+    {
+        "Question": "What is cloud computing?",
+        "Answer": "Cloud computing allows remote access to shared computing resources.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is backpropagation?",
+        "Answer": "Backpropagation is used to optimize neural network weights.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Explain Git branching.",
+        "Answer": "Git branching allows developers to work in isolated environments.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a buffer overflow?",
+        "Answer": "A buffer overflow occurs when data exceeds allocated memory, causing unpredictable behavior.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is HTTP?",
+        "Answer": "HTTP is a protocol for secure data transfer over the internet.",
+        "True/False": "False"
+    },
+    {
+        "Question": "Explain JSON.",
+        "Answer": "JSON is a data interchange format that uses key-value pairs.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a kernel in OS?",
+        "Answer": "The kernel is the core part of an OS that manages hardware and software interactions.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is an API?",
+        "Answer": "An API defines how software components interact.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Explain virtual memory.",
+        "Answer": "Virtual memory uses secondary storage to extend physical memory.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a cache?",
+        "Answer": "A cache temporarily stores frequently accessed data for quick access.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a database schema?",
+        "Answer": "A database schema defines the logical structure of a database.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a for loop?",
+        "Answer": "A for loop repeats code until a condition is false.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is latency?",
+        "Answer": "Latency measures the delay before data transfer begins.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is middleware?",
+        "Answer": "Middleware manages database queries in relational databases.",
+        "True/False": "False"
+    },
+    {
+        "Question": "Explain RAM.",
+        "Answer": "RAM is volatile memory that stores data temporarily for quick access.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a compiler error?",
+        "Answer": "A compiler error occurs when code cannot be compiled into an executable form.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a CDN?",
+        "Answer": "A CDN accelerates web content delivery by caching it on servers worldwide.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is HTTPS?",
+        "Answer": "HTTPS encrypts data transferred over the internet for security.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a class in OOP?",
+        "Answer": "A class is a blueprint for creating objects.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is garbage collection?",
+        "Answer": "Garbage collection manually deallocates unused memory in programming.",
+        "True/False": "False"
+    },
+    {
+        "Question": "What is TCP/IP?",
+        "Answer": "TCP/IP is a suite of communication protocols for the internet.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is agile development?",
+        "Answer": "Agile development focuses on iterative and incremental software development.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is CI/CD?",
+        "Answer": "CI/CD automates code deployment but not testing.",
+        "True/False": "False"
+    },
+    {
+        "Question": "What is a regression test?",
+        "Answer": "Regression testing ensures new code changes do not break existing functionality.",
+        "True/False": "True"
+    }
+    {
+        "Question": "What is data abstraction?",
+        "Answer": "Data abstraction separates a data type’s implementation from its interface.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Explain what a binary search tree is.",
+        "Answer": "A binary search tree is a tree-based structure where nodes have two children.",
+        "True/False": "False"
+    },
+    {
+        "Question": "What is software testing?",
+        "Answer": "Software testing ensures a program behaves as expected.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Explain syntax error.",
+        "Answer": "Syntax errors occur when the program logic fails during runtime.",
+        "True/False": "False"
+    },
+    {
+        "Question": "Define data abstraction.",
+        "Answer": "Data abstraction hides the implementation details of data types.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Why do syntax errors occur?",
+        "Answer": "Syntax errors occur when code doesn’t conform to the language rules.",
+        "True/False": "True"
+    },
+    {
+        "Question": "Explain program documentation.",
+        "Answer": "Program documentation helps write code but doesn’t help in future maintenance.",
+        "True/False": "False"
+    },
+    {
+        "Question": "What is meant by program documentation?",
+        "Answer": "It provides details on the code structure, making it easier to understand.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is a doubly linked list?",
+        "Answer": "It’s a list where each node links to the next node only.",
+        "True/False": "False"
+    },
+    {
+        "Question": "Describe decision trees.",
+        "Answer": "Decision trees are graphical models for decision-making processes.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is logistic regression?",
+        "Answer": "Logistic regression is used for continuous data predictions.",
+        "True/False": "False"
+    },
+    {
+        "Question": "What is program documentation?",
+        "Answer": "Documentation is necessary for both users and future developers.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is DBMS?",
+        "Answer": "DBMS is a system for managing, querying, and updating databases.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is dimensionality reduction?",
+        "Answer": "It removes irrelevant data points from datasets.",
+        "True/False": "False"
+    },
+    {
+        "Question": "Explain confusion matrix.",
+        "Answer": "A confusion matrix helps evaluate classification models.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is normalization?",
+        "Answer": "It increases redundancy in a database for efficiency.",
+        "True/False": "False"
+    },
+    {
+        "Question": "Explain polymorphism in OOP.",
+        "Answer": "Polymorphism allows objects to be treated as their base type.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What is bias in data science?",
+        "Answer": "Bias occurs when the data model overfits on certain features.",
+        "True/False": "True"
+    },
+    {
+        "Question": "What are dynamic data structures?",
+        "Answer": "Dynamic data structures have fixed sizes set at compile time.",
+        "True/False": "False"
+    },
+    {
+        "Question": "What is a database?",
+        "Answer": "A database is a collection of structured data stored electronically.",
+        "True/False": "True"
+    }
 
-"Question": "Explain what a binary search tree is.",
-"Answer": "A binary search tree is a tree-based structure where nodes have two children.",
-"True/False": "False"
-
-"Question": "What is software testing?",
-"Answer": "Software testing ensures a program behaves as expected.",
-"True/False": "True"
-
-"Question": "Explain syntax error.",
-"Answer": "Syntax errors occur when the program logic fails during runtime.",
-"True/False": "False"
-
-"Question": "Define data abstraction.",
-"Answer": "Data abstraction hides the implementation details of data types.",
-"True/False": "True"
-
-"Question": "Why do syntax errors occur?",
-"Answer": "Syntax errors occur when code doesn’t conform to the language rules.",
-"True/False": "True"
-
-"Question": "Explain program documentation.",
-"Answer": "Program documentation helps write code but doesn’t help in future maintenance.",
-"True/False": "False"
-
-"Question": "What is meant by program documentation?",
-"Answer": "It provides details on the code structure, making it easier to understand.",
-"True/False": "True"
-
-"Question": "What is a doubly linked list?",
-"Answer": "It’s a list where each node links to the next node only.",
-"True/False": "False"
-
-"Question": "Describe decision trees.",
-"Answer": "Decision trees are graphical models for decision-making processes.",
-"True/False": "True"
-
-"Question": "What is logistic regression?",
-"Answer": "Logistic regression is used for continuous data predictions.",
-"True/False": "False"
-
-"Question": "What is program documentation?",
-"Answer": "Documentation is necessary for both users and future developers.",
-"True/False": "True"
-
-"Question": "What is DBMS?",
-"Answer": "DBMS is a system for managing, querying, and updating databases.",
-"True/False": "True"
-
-"Question": "What is dimensionality reduction?",
-"Answer": "It removes irrelevant data points from datasets.",
-"True/False": "False"
-
-"Question": "Explain confusion matrix.",
-"Answer": "A confusion matrix helps evaluate classification models.",
-"True/False": "True"
-
-"Question": "What is normalization?",
-"Answer": "It increases redundancy in a database for efficiency.",
-"True/False": "False"
-
-"Question": "Explain polymorphism in OOP.",
-"Answer": "Polymorphism allows objects to be treated as their base type.",
-"True/False": "True"
-
-"Question": "What is bias in data science?",
-"Answer": "Bias occurs when the data model overfits on certain features.",
-"True/False": "True"
-
-"Question": "What are dynamic data structures?",
-"Answer": "Dynamic data structures have fixed sizes set at compile time.",
-"True/False": "False"
-
-"Question": "What is a database?",
-"Answer": "A database is a collection of structured data stored electronically.",
-"True/False": "True"
-}
 ]
