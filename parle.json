@@ -1,0 +1,469 @@
+[
+  {
+    "input_instruction": "Generate 3 true/false questions on algorithms",
+    "question_type": "True/False",
+    "topic": "Algorithms",
+    "questions": [
+      { "question_text": "A binary search algorithm works in O(log n) time.", "correct_answer": "True" },
+      { "question_text": "The traveling salesman problem is a linear-time problem.", "correct_answer": "False" },
+      { "question_text": "Depth-first search uses a stack for traversal.", "correct_answer": "True" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 2 true/false questions on databases",
+    "question_type": "True/False",
+    "topic": "Databases",
+    "questions": [
+      { "question_text": "SQL is a programming language.", "correct_answer": "False" },
+      { "question_text": "Indexes improve the speed of data retrieval.", "correct_answer": "True" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 true/false questions on operating systems",
+    "question_type": "True/False",
+    "topic": "Operating Systems",
+    "questions": [
+      { "question_text": "A thread is a lightweight process.", "correct_answer": "True" },
+      { "question_text": "Paging causes external fragmentation.", "correct_answer": "False" },
+      { "question_text": "The kernel is part of user space.", "correct_answer": "False" },
+      { "question_text": "A semaphore can be used to prevent race conditions.", "correct_answer": "True" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 5 true/false questions on networks",
+    "question_type": "True/False",
+    "topic": "Computer Networks",
+    "questions": [
+      { "question_text": "HTTP is a stateless protocol.", "correct_answer": "True" },
+      { "question_text": "TCP is faster than UDP.", "correct_answer": "False" },
+      { "question_text": "IPv6 has a larger address space than IPv4.", "correct_answer": "True" },
+      { "question_text": "DNS translates IP addresses to domain names.", "correct_answer": "False" },
+      { "question_text": "A firewall is used for network security.", "correct_answer": "True" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 3 MCQs on data structures",
+    "question_type": "MCQ",
+    "topic": "Data Structures",
+    "questions": [
+      {
+        "question_text": "Which data structure uses LIFO?",
+        "options": { "A": "Stack", "B": "Queue", "C": "Array", "D": "Linked List" },
+        "correct_answer": "A"
+      },
+      {
+        "question_text": "Which data structure is used for BFS?",
+        "options": { "A": "Stack", "B": "Queue", "C": "Heap", "D": "Tree" },
+        "correct_answer": "B"
+      },
+      {
+        "question_text": "What is the time complexity of accessing an element in an array?",
+        "options": { "A": "O(1)", "B": "O(log n)", "C": "O(n)", "D": "O(n^2)" },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 MCQs on programming languages",
+    "question_type": "MCQ",
+    "topic": "Programming Languages",
+    "questions": [
+      {
+        "question_text": "Which language is primarily used for Android app development?",
+        "options": { "A": "Python", "B": "C#", "C": "Kotlin", "D": "Swift" },
+        "correct_answer": "C"
+      },
+      {
+        "question_text": "What does 'Java' use for memory management?",
+        "options": { "A": "Manual allocation", "B": "Garbage collection", "C": "Reference counting", "D": "None of these" },
+        "correct_answer": "B"
+      },
+      {
+        "question_text": "Which programming paradigm does Python support?",
+        "options": { "A": "Object-oriented", "B": "Functional", "C": "Procedural", "D": "All of the above" },
+        "correct_answer": "D"
+      },
+      {
+        "question_text": "Which of the following is a statically typed language?",
+        "options": { "A": "Python", "B": "JavaScript", "C": "C++", "D": "PHP" },
+        "correct_answer": "C"
+      }
+    ]
+  },
+  {
+    "input_instruction": "Generate 3 short answer questions on operating systems",
+    "question_type": "Short Answer",
+    "topic": "Operating Systems",
+    "questions": [
+      { "question_text": "What is the main function of an operating system?", "correct_answer": "To manage hardware and software resources." },
+      { "question_text": "What is a deadlock?", "correct_answer": "A state where two or more processes are waiting for resources held by each other." },
+      { "question_text": "Name one scheduling algorithm.", "correct_answer": "Round Robin" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 short answer questions on databases",
+    "question_type": "Short Answer",
+    "topic": "Databases",
+    "questions": [
+      { "question_text": "What is a primary key?", "correct_answer": "A unique identifier for records in a table." },
+      { "question_text": "What is normalization?", "correct_answer": "A process to reduce redundancy in database design." },
+      { "question_text": "Name one NoSQL database.", "correct_answer": "MongoDB" },
+      { "question_text": "What is a foreign key?", "correct_answer": "A field in a table that refers to the primary key of another table." }
+    ]
+  },
+  {
+    "input_instruction": "Generate 2 short answer questions on computer networks",
+    "question_type": "Short Answer",
+    "topic": "Computer Networks",
+    "questions": [
+      { "question_text": "What is the purpose of the OSI model?", "correct_answer": "To standardize network communication into layers." },
+      { "question_text": "What is the default port number for HTTP?", "correct_answer": "80" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 3 true/false questions on machine learning",
+    "question_type": "True/False",
+    "topic": "Machine Learning",
+    "questions": [
+      { "question_text": "Supervised learning uses labeled data for training.", "correct_answer": "True" },
+      { "question_text": "Reinforcement learning is not used in robotics.", "correct_answer": "False" },
+      { "question_text": "A neural network can approximate any continuous function.", "correct_answer": "True" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 2 true/false questions on cybersecurity",
+    "question_type": "True/False",
+    "topic": "Cybersecurity",
+    "questions": [
+      { "question_text": "Encryption ensures data confidentiality.", "correct_answer": "True" },
+      { "question_text": "Phishing attacks are always conducted over email.", "correct_answer": "False" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 true/false questions on programming paradigms",
+    "question_type": "True/False",
+    "topic": "Programming Paradigms",
+    "questions": [
+      { "question_text": "Functional programming avoids mutable state.", "correct_answer": "True" },
+      { "question_text": "Object-oriented programming relies heavily on inheritance.", "correct_answer": "True" },
+      { "question_text": "Procedural programming cannot use loops.", "correct_answer": "False" },
+      { "question_text": "Declarative programming specifies the steps to achieve an outcome.", "correct_answer": "False" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 5 true/false questions on cloud computing",
+    "question_type": "True/False",
+    "topic": "Cloud Computing",
+    "questions": [
+      { "question_text": "IaaS stands for Infrastructure as a Service.", "correct_answer": "True" },
+      { "question_text": "Cloud computing always ensures 100% uptime.", "correct_answer": "False" },
+      { "question_text": "Hybrid clouds combine private and public cloud elements.", "correct_answer": "True" },
+      { "question_text": "AWS is an example of a SaaS provider.", "correct_answer": "False" },
+      { "question_text": "Cloud storage can be scaled dynamically.", "correct_answer": "True" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 3 MCQs on software engineering",
+    "question_type": "MCQ",
+    "topic": "Software Engineering",
+    "questions": [
+      {
+        "question_text": "Which SDLC model is known for iterative development?",
+        "options": { "A": "Waterfall", "B": "Agile", "C": "V-Model", "D": "RAD" },
+        "correct_answer": "B"
+      },
+      {
+        "question_text": "What does 'KLOC' measure in software engineering?",
+        "options": { "A": "Key Lines of Code", "B": "Kilo Lines of Code", "C": "Kernel Lines of Code", "D": "Known Lines of Code" },
+        "correct_answer": "B"
+      },
+      {
+        "question_text": "Which of these is a software testing type?",
+        "options": { "A": "Regression", "B": "Integration", "C": "Unit", "D": "All of the above" },
+        "correct_answer": "D"
+      }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 MCQs on artificial intelligence",
+    "question_type": "MCQ",
+    "topic": "Artificial Intelligence",
+    "questions": [
+      {
+        "question_text": "Which of these is a heuristic search algorithm?",
+        "options": { "A": "A*", "B": "DFS", "C": "BFS", "D": "Dijkstra" },
+        "correct_answer": "A"
+      },
+      {
+        "question_text": "What does NLP stand for?",
+        "options": { "A": "Natural Language Processing", "B": "Network Link Protocol", "C": "Node Layer Programming", "D": "None of these" },
+        "correct_answer": "A"
+      },
+      {
+        "question_text": "Which is a key component of an expert system?",
+        "options": { "A": "Inference Engine", "B": "Compiler", "C": "IDE", "D": "Debugger" },
+        "correct_answer": "A"
+      },
+      {
+        "question_text": "What is reinforcement learning based on?",
+        "options": { "A": "Supervision", "B": "Rewards and penalties", "C": "Pre-labeled data", "D": "Clustering" },
+        "correct_answer": "B"
+      }
+    ]
+  },
+{
+    "input_instruction": "Generate 3 short answer questions on web development",
+    "question_type": "Short Answer",
+    "topic": "Web Development",
+    "questions": [
+      { "question_text": "What does HTML stand for?", "correct_answer": "HyperText Markup Language" },
+      { "question_text": "What is the role of CSS?", "correct_answer": "CSS is used for styling web pages." },
+      { "question_text": "Name one popular JavaScript framework.", "correct_answer": "React" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 short answer questions on computer architecture",
+    "question_type": "Short Answer",
+    "topic": "Computer Architecture",
+    "questions": [
+      { "question_text": "What is the function of the ALU?", "correct_answer": "The ALU performs arithmetic and logic operations." },
+      { "question_text": "What is pipelining?", "correct_answer": "Pipelining is a technique used to improve CPU performance by overlapping instruction execution." },
+      { "question_text": "Name one type of cache memory.", "correct_answer": "L1 Cache" },
+      { "question_text": "What is an interrupt?", "correct_answer": "An interrupt is a signal that temporarily halts the current execution to handle an event." }
+    ]
+  },
+  {
+    "input_instruction": "Generate 2 short answer questions on networking protocols",
+    "question_type": "Short Answer",
+    "topic": "Networking Protocols",
+    "questions": [
+      { "question_text": "What does TCP stand for?", "correct_answer": "Transmission Control Protocol" },
+      { "question_text": "What is the main purpose of the DHCP protocol?", "correct_answer": "To assign IP addresses dynamically to devices in a network." }
+    ]
+  },
+  {
+    "input_instruction": "Generate 3 true/false questions on operating systems",
+    "question_type": "True/False",
+    "topic": "Operating Systems",
+    "questions": [
+      { "question_text": "A process in an operating system can have multiple threads.", "correct_answer": "True" },
+      { "question_text": "Deadlock occurs when multiple processes are waiting for resources indefinitely.", "correct_answer": "True" },
+      { "question_text": "The main purpose of a kernel is to manage user applications.", "correct_answer": "False" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 true/false questions on databases",
+    "question_type": "True/False",
+    "topic": "Databases",
+    "questions": [
+      { "question_text": "Normalization reduces redundancy in databases.", "correct_answer": "True" },
+      { "question_text": "A primary key can contain NULL values.", "correct_answer": "False" },
+      { "question_text": "SQL is a procedural programming language.", "correct_answer": "False" },
+      { "question_text": "Indexes improve the speed of data retrieval in databases.", "correct_answer": "True" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 5 true/false questions on data structures",
+    "question_type": "True/False",
+    "topic": "Data Structures",
+    "questions": [
+      { "question_text": "A stack follows the FIFO principle.", "correct_answer": "False" },
+      { "question_text": "A binary tree can have more than two children per node.", "correct_answer": "False" },
+      { "question_text": "Linked lists allow dynamic memory allocation.", "correct_answer": "True" },
+      { "question_text": "A hash table uses a hash function for indexing.", "correct_answer": "True" },
+      { "question_text": "A queue operates on a LIFO basis.", "correct_answer": "False" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 3 MCQs on algorithms",
+    "question_type": "MCQ",
+    "topic": "Algorithms",
+    "questions": [
+      {
+        "question_text": "Which algorithm is used for finding the shortest path in a graph?",
+        "options": { "A": "Dijkstra's Algorithm", "B": "Merge Sort", "C": "Quick Sort", "D": "Prim's Algorithm" },
+        "correct_answer": "A"
+      },
+      {
+        "question_text": "Which of these is a divide-and-conquer algorithm?",
+        "options": { "A": "Quick Sort", "B": "DFS", "C": "BFS", "D": "Linear Search" },
+        "correct_answer": "A"
+      },
+      {
+        "question_text": "What is the time complexity of binary search in a sorted array?",
+        "options": { "A": "O(1)", "B": "O(n)", "C": "O(log n)", "D": "O(n^2)" },
+        "correct_answer": "C"
+      }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 MCQs on networking",
+    "question_type": "MCQ",
+    "topic": "Networking",
+    "questions": [
+      {
+        "question_text": "Which protocol is used for secure communication over the Internet?",
+        "options": { "A": "HTTP", "B": "SMTP", "C": "HTTPS", "D": "FTP" },
+        "correct_answer": "C"
+      },
+      {
+        "question_text": "What does the term 'IP' in IP address stand for?",
+        "options": { "A": "Internet Protocol", "B": "Internal Packet", "C": "Intermediate Protocol", "D": "Indexed Packet" },
+        "correct_answer": "A"
+      },
+      {
+        "question_text": "Which layer of the OSI model handles end-to-end communication?",
+        "options": { "A": "Data Link Layer", "B": "Transport Layer", "C": "Session Layer", "D": "Network Layer" },
+        "correct_answer": "B"
+      },
+      {
+        "question_text": "What is the maximum length of an IPv4 address?",
+        "options": { "A": "16 bits", "B": "32 bits", "C": "64 bits", "D": "128 bits" },
+        "correct_answer": "B"
+      }
+    ]
+  },
+  {
+    "input_instruction": "Generate 3 short answer questions on programming languages",
+    "question_type": "Short Answer",
+    "topic": "Programming Languages",
+    "questions": [
+      { "question_text": "What is a compiler?", "correct_answer": "A compiler is a program that converts source code into executable code." },
+      { "question_text": "Name one feature of object-oriented programming.", "correct_answer": "Inheritance" },
+      { "question_text": "What does 'Pythonic' mean in programming?", "correct_answer": "Writing code that adheres to Python's design principles." }
+    ]
+  },
+  {
+    "input_instruction": "Generate 2 short answer questions on cloud computing",
+    "question_type": "Short Answer",
+    "topic": "Cloud Computing",
+    "questions": [
+      { "question_text": "What is SaaS?", "correct_answer": "Software as a Service" },
+      { "question_text": "Name one advantage of cloud storage.", "correct_answer": "Scalability" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 short answer questions on computer networks",
+    "question_type": "Short Answer",
+    "topic": "Computer Networks",
+    "questions": [
+      { "question_text": "What does DNS stand for?", "correct_answer": "Domain Name System" },
+      { "question_text": "What is a subnet mask?", "correct_answer": "A subnet mask is used to divide an IP address into network and host parts." },
+      { "question_text": "Name one type of wireless communication protocol.", "correct_answer": "Wi-Fi" },
+      { "question_text": "What is the primary purpose of a firewall?", "correct_answer": "To monitor and control incoming and outgoing network traffic." }
+    ]
+  },
+  {
+    "input_instruction": "Generate 3 true/false questions on artificial intelligence",
+    "question_type": "True/False",
+    "topic": "Artificial Intelligence",
+    "questions": [
+      { "question_text": "Machine learning is a subset of artificial intelligence.", "correct_answer": "True" },
+      { "question_text": "Neural networks are always supervised learning models.", "correct_answer": "False" },
+      { "question_text": "AI systems can never perform better than human experts in specific domains.", "correct_answer": "False" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 true/false questions on cybersecurity",
+    "question_type": "True/False",
+    "topic": "Cybersecurity",
+    "questions": [
+      { "question_text": "A brute force attack attempts all possible password combinations.", "correct_answer": "True" },
+      { "question_text": "Phishing attacks rely on exploiting vulnerabilities in software code.", "correct_answer": "False" },
+      { "question_text": "Multi-factor authentication improves security.", "correct_answer": "True" },
+      { "question_text": "Firewalls are used to encrypt sensitive data.", "correct_answer": "False" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 5 true/false questions on programming concepts",
+    "question_type": "True/False",
+    "topic": "Programming Concepts",
+    "questions": [
+      { "question_text": "A variable can be declared without initializing it.", "correct_answer": "True" },
+      { "question_text": "Polymorphism is only supported in object-oriented programming languages.", "correct_answer": "False" },
+      { "question_text": "Recursion is a technique where a function calls itself.", "correct_answer": "True" },
+      { "question_text": "In Python, indentation is optional.", "correct_answer": "False" },
+      { "question_text": "A function in a program can have zero or more return statements.", "correct_answer": "True" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 3 MCQs on web development",
+    "question_type": "MCQ",
+    "topic": "Web Development",
+    "questions": [
+      {
+        "question_text": "What does HTML stand for?",
+        "options": { "A": "Hyper Text Markup Language", "B": "High-Level Text Manager", "C": "Home Tool Markup Language", "D": "Hyperlink Text Management Language" },
+        "correct_answer": "A"
+      },
+      {
+        "question_text": "Which CSS property controls text size?",
+        "options": { "A": "font-style", "B": "font-size", "C": "text-align", "D": "text-size" },
+        "correct_answer": "B"
+      },
+      {
+        "question_text": "What does the 'async' attribute in a script tag do?",
+        "options": { "A": "Runs the script after the HTML document is loaded", "B": "Loads the script asynchronously with the page", "C": "Stops the script from running", "D": "Makes the script load faster" },
+        "correct_answer": "B"
+      }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 MCQs on machine learning",
+    "question_type": "MCQ",
+    "topic": "Machine Learning",
+    "questions": [
+      {
+        "question_text": "Which type of learning involves labeled data?",
+        "options": { "A": "Unsupervised Learning", "B": "Reinforcement Learning", "C": "Supervised Learning", "D": "Deep Learning" },
+        "correct_answer": "C"
+      },
+      {
+        "question_text": "What is the purpose of a loss function?",
+        "options": { "A": "To evaluate the accuracy of a model", "B": "To measure the error in prediction", "C": "To train the model", "D": "To optimize the algorithm" },
+        "correct_answer": "B"
+      },
+      {
+        "question_text": "What is overfitting in machine learning?",
+        "options": { "A": "When a model performs poorly on the training data", "B": "When a model generalizes well to unseen data", "C": "When a model performs well on training data but poorly on new data", "D": "When the model does not learn from the training data" },
+        "correct_answer": "C"
+      },
+      {
+        "question_text": "Which algorithm is used for classification tasks?",
+        "options": { "A": "Linear Regression", "B": "K-Means", "C": "Decision Tree", "D": "Principal Component Analysis" },
+        "correct_answer": "C"
+      }
+    ]
+  },
+  {
+    "input_instruction": "Generate 3 short answer questions on computer architecture",
+    "question_type": "Short Answer",
+    "topic": "Computer Architecture",
+    "questions": [
+      { "question_text": "What is the function of the ALU in a CPU?", "correct_answer": "The ALU performs arithmetic and logic operations." },
+      { "question_text": "What does 'clock speed' in a processor measure?", "correct_answer": "The number of cycles a CPU can execute per second." },
+      { "question_text": "Name one type of memory used in computers.", "correct_answer": "RAM (Random Access Memory)" }
+    ]
+  },
+  {
+    "input_instruction": "Generate 4 short answer questions on software engineering",
+    "question_type": "Short Answer",
+    "topic": "Software Engineering",
+    "questions": [
+      { "question_text": "What is the purpose of version control?", "correct_answer": "To manage changes to code over time." },
+      { "question_text": "Name one software development lifecycle model.", "correct_answer": "Waterfall model" },
+      { "question_text": "What is a software requirement specification (SRS)?", "correct_answer": "A document that outlines the requirements for a software project." },
+      { "question_text": "What is the primary goal of testing in software development?", "correct_answer": "To find and fix defects in the software." }
+    ]
+  },
+  {
+    "input_instruction": "Generate 3 short answer questions on programming paradigms",
+    "question_type": "Short Answer",
+    "topic": "Programming Paradigms",
+    "questions": [
+      { "question_text": "What is a functional programming language?", "correct_answer": "A language that uses functions as the primary building blocks for computation." },
+      { "question_text": "Name one example of an object-oriented programming language.", "correct_answer": "Java" },
+      { "question_text": "What is procedural programming?", "correct_answer": "A programming paradigm based on structured steps and procedures." }
+    ]
+  }
+]
